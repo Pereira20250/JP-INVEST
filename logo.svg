@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="JP INVESTI">
+  <defs>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f6d47d" />
+      <stop offset="100%" stop-color="#936813" />
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2f7bc1" />
+      <stop offset="100%" stop-color="#071526" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="92" fill="#06111e" />
+  <path
+    d="M108 126h88c-16 8-24 20-24 42v124c0 54-22 96-84 98 28-14 38-38 38-70V168c0-22-8-34-18-42Z"
+    fill="url(#gold)"
+  />
+  <path
+    d="M214 126h88c72 0 121 40 121 99 0 35-16 64-44 84l-42-39c12-10 20-24 20-42 0-29-24-49-61-49h-26v197h-56V126Z"
+    fill="url(#blue)"
+  />
+  <path d="M301 283h42v103h-42zM359 240h42v146h-42zM417 196h42v190h-42z" fill="url(#blue)" />
+  <path
+    d="M100 311c153-34 238-91 318-195l15 8c-52 194-201 272-346 281 6-3 10-8 13-13Z"
+    fill="url(#gold)"
+  />
+  <path d="m410 124 54-22-16 58-38-36Z" fill="url(#gold)" />
+</svg>

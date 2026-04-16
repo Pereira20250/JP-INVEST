@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Checkout de pagamento da JP INVESTI." />
+    <title>JP INVESTI | Pagamento</title>
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css?v=7" />
+  </head>
+  <body data-page="checkout">
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+    <div class="background-grid"></div>
+
+    <div class="site-shell">
+      <header class="page-header">
+        <nav class="topbar">
+          <a class="brand" href="/index.html" aria-label="JP INVESTI">
+            <img src="/logo.svg" alt="JP INVESTI" class="brand-logo" />
+            <div class="brand-copy">
+              <strong>JP INVESTI</strong>
+              <span>Consultoria premium digital</span>
+            </div>
+          </a>
+
+          <div class="topbar-actions">
+            <a class="nav-link" href="/index.html">Inicio</a>
+            <a class="nav-link" href="/planos.html">Planos</a>
+            <a class="nav-link" href="/calculadora.html">Calculadora</a>
+            <a class="nav-link" href="/contato.html">Contato</a>
+            <a class="button button-primary" href="https://wa.me/5511976172617" target="_blank" rel="noreferrer">
+              Falar no WhatsApp
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section subhero">
+          <div class="section-heading narrow">
+            <span class="eyebrow">Checkout JP INVESTI</span>
+            <h1 class="page-title">Finalize seu plano por Pix</h1>
+            <p class="page-copy">
+              Escolha o plano, copie a chave Pix e envie o comprovante no WhatsApp para agilizar a confirmacao.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="checkout-grid">
+            <div id="checkout-plan-card" class="panel checkout-card checkout-plan-panel">
+              <div class="checkout-panel-head">
+                <span class="mini-label">Plano selecionado</span>
+                <strong id="checkout-plan-name">Carregando plano...</strong>
+                <span id="checkout-plan-price" class="checkout-price">R$ 0,00</span>
+              </div>
+              <p id="checkout-plan-summary" class="page-copy">Aguarde enquanto carregamos os detalhes do plano.</p>
+              <ul id="checkout-plan-benefits" class="plan-benefits"></ul>
+            </div>
+
+            <form id="checkout-form" class="panel checkout-card gold-checkout">
+              <div class="checkout-panel-head">
+                <span class="mini-label">Pagamento</span>
+                <strong>Chave Pix</strong>
+              </div>
+              <div class="input-grid">
+                <label>
+                  Nome
+                  <input type="text" name="name" placeholder="Seu nome completo" required />
+                </label>
+                <label>
+                  WhatsApp
+                  <input type="tel" name="phone" placeholder="(11) 99999-9999" required />
+                </label>
+                <label class="field-span-2">
+                  E-mail
+                  <input type="email" name="email" placeholder="voce@email.com" required />
+                </label>
+              </div>
+              <div class="pix-box">
+                <span id="checkout-pix-key">219.102.888-88</span>
+              </div>
+              <button id="copy-pix" class="button button-dark button-full">Copiar chave Pix</button>
+              <button id="checkout-submit" type="submit" class="button button-primary button-full">
+                Confirmar dados e gerar pedido
+              </button>
+              <div class="checkout-step-list">
+                <div class="checkout-step">1. Copie a chave Pix</div>
+                <div class="checkout-step">2. Preencha seus dados</div>
+                <div class="checkout-step">3. Gere o pedido e envie o comprovante</div>
+              </div>
+              <p id="checkout-status" class="form-status" aria-live="polite"></p>
+              <p class="checkout-help">
+                Depois do pagamento, envie o comprovante pelo WhatsApp para liberar o atendimento.
+              </p>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app-v2.js?v=2" defer></script>
+  </body>
+</html>

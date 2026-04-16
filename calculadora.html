@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Calculadora de investimentos da JP INVESTI." />
+    <title>JP INVESTI | Calculadora</title>
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css?v=6" />
+  </head>
+  <body data-page="calculator">
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+    <div class="background-grid"></div>
+
+    <div class="site-shell">
+      <header class="page-header">
+        <nav class="topbar">
+          <a class="brand" href="/index.html" aria-label="JP INVESTI">
+            <img src="/logo.svg" alt="JP INVESTI" class="brand-logo" />
+            <div class="brand-copy">
+              <strong>JP INVESTI</strong>
+              <span>Consultoria premium digital</span>
+            </div>
+          </a>
+
+          <div class="topbar-actions">
+            <a class="nav-link" href="/index.html">Inicio</a>
+            <a class="nav-link" href="/planos.html">Planos</a>
+            <a class="nav-link is-active" href="/calculadora.html">Calculadora</a>
+            <a class="nav-link" href="/contato.html">Contato</a>
+            <a class="button button-primary" href="https://wa.me/5511976172617" target="_blank" rel="noreferrer">
+              Falar no WhatsApp
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section subhero">
+          <div class="section-heading narrow">
+            <span class="eyebrow">Simulador</span>
+            <h1 class="page-title">Calculadora de investimentos</h1>
+            <p class="page-copy">
+              Faca uma projecao rapida do crescimento do capital com aportes mensais e juros compostos.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="calculator-grid">
+            <form id="calculator-form" class="panel form-panel calculator-form-panel">
+              <div class="calculator-form-head">
+                <span class="mini-label">Parametros da simulacao</span>
+                <strong>Monte seu cenario de investimento</strong>
+              </div>
+
+              <div class="input-grid">
+                <label>
+                  Valor inicial
+                  <input type="number" name="initialAmount" min="0" step="0.01" value="1000" required />
+                </label>
+                <label>
+                  Aporte mensal
+                  <input type="number" name="monthlyAmount" min="0" step="0.01" value="500" required />
+                </label>
+                <label>
+                  Prazo em meses
+                  <input type="number" name="months" min="1" step="1" value="24" required />
+                </label>
+                <label>
+                  Rentabilidade mensal (%)
+                  <input type="number" name="monthlyRate" min="0" step="0.01" value="1.2" required />
+                </label>
+              </div>
+
+              <button type="submit" class="button button-primary button-full">Calcular investimento</button>
+
+              <div class="tip-strip">
+                <span>Ajuste prazo, aporte e taxa para comparar cenarios.</span>
+              </div>
+            </form>
+
+            <div class="panel calculator-results premium-results">
+              <span class="mini-label">Resultado estimado</span>
+              <strong id="result-total">R$ 0,00</strong>
+              <div class="result-grid">
+                <article>
+                  <span>Total investido</span>
+                  <strong id="result-invested">R$ 0,00</strong>
+                </article>
+                <article>
+                  <span>Juros acumulados</span>
+                  <strong id="result-interest">R$ 0,00</strong>
+                </article>
+                <article>
+                  <span>Prazo</span>
+                  <strong id="result-months">0 meses</strong>
+                </article>
+              </div>
+              <p class="calculator-note">
+                Simulacao educativa. Para uma estrategia personalizada, fale com a JP INVESTI.
+              </p>
+              <a class="button button-secondary button-full" href="https://wa.me/5511976172617" target="_blank" rel="noreferrer">
+                Quero uma analise completa
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app-v2.js?v=1" defer></script>
+  </body>
+</html>

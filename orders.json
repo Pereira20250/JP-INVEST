@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1776356492442,
+    "status": "aguardando_comprovante",
+    "name": "Cliente Teste",
+    "phone": "11999999999",
+    "email": "teste@exemplo.com",
+    "planId": "prime",
+    "planName": "Plano Prime",
+    "planPrice": "R$ 149/mes",
+    "pixKey": "219.102.888-88",
+    "whatsapp": "11976172617",
+    "onboarding": [
+      "Receba o plano estrategico mensal.",
+      "Entre na prioridade de atendimento da JP INVESTI.",
+      "Comece o acompanhamento premium com revisoes periodicas."
+    ],
+    "benefits": [
+      "Tudo do Essencial",
+      "Estrategia mensal personalizada",
+      "Prioridade no atendimento",
+      "Material exclusivo de acompanhamento"
+    ],
+    "createdAt": "2026-04-16T16:21:32.442Z"
+  }
+]

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Entre em contato com a JP INVESTI." />
+    <title>JP INVESTI | Contato</title>
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css?v=6" />
+  </head>
+  <body data-page="contact">
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+    <div class="background-grid"></div>
+
+    <div class="site-shell">
+      <header class="page-header">
+        <nav class="topbar">
+          <a class="brand" href="/index.html" aria-label="JP INVESTI">
+            <img src="/logo.svg" alt="JP INVESTI" class="brand-logo" />
+            <div class="brand-copy">
+              <strong>JP INVESTI</strong>
+              <span>Consultoria premium digital</span>
+            </div>
+          </a>
+
+          <div class="topbar-actions">
+            <a class="nav-link" href="/index.html">Inicio</a>
+            <a class="nav-link" href="/planos.html">Planos</a>
+            <a class="nav-link" href="/calculadora.html">Calculadora</a>
+            <a class="nav-link is-active" href="/contato.html">Contato</a>
+            <a class="button button-primary" href="https://wa.me/5511976172617" target="_blank" rel="noreferrer">
+              Falar no WhatsApp
+            </a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section subhero">
+          <div class="section-heading narrow">
+            <span class="eyebrow">Contato estrategico</span>
+            <h1 class="page-title">Capte o lead e leve para o fechamento.</h1>
+            <p class="page-copy">Pagina focada em contato e atendimento rapido pelo WhatsApp.</p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="contact-grid">
+            <div class="panel contact-info premium-contact-info">
+              <div class="contact-block">
+                <span class="mini-label">WhatsApp oficial</span>
+                <strong>11 97617-2617</strong>
+              </div>
+              <div class="contact-badge-list">
+                <div class="contact-badge">Resposta rapida</div>
+                <div class="contact-badge">Triagem por objetivo</div>
+                <div class="contact-badge">Direcionamento premium</div>
+              </div>
+              <a class="button button-primary button-full" href="https://wa.me/5511976172617" target="_blank" rel="noreferrer">
+                Abrir atendimento
+              </a>
+            </div>
+
+            <form id="lead-form" class="panel form-panel premium-form-panel">
+              <div class="form-intro">
+                <span class="mini-label">Formulario de interesse</span>
+                <strong>Preencha os dados para receber retorno</strong>
+              </div>
+
+              <div class="input-grid">
+                <label>
+                  Nome
+                  <input type="text" name="name" placeholder="Seu nome completo" required />
+                </label>
+                <label>
+                  WhatsApp
+                  <input type="tel" name="phone" placeholder="(11) 99999-9999" required />
+                </label>
+                <label class="field-span-2">
+                  Plano desejado
+                  <select name="plan" id="plan-select">
+                    <option value="">Quero ajuda para escolher</option>
+                  </select>
+                </label>
+                <label class="field-span-2">
+                  Objetivo
+                  <textarea name="goal" rows="5" placeholder="Descreva o objetivo do atendimento"></textarea>
+                </label>
+              </div>
+
+              <button type="submit" class="button button-primary button-full">Enviar solicitacao</button>
+              <p class="page-copy">Destino do formulario: pereira_joaop@yahoo.com.br</p>
+              <p id="form-status" class="form-status" aria-live="polite"></p>
+            </form>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app-v2.js?v=1" defer></script>
+  </body>
+</html>

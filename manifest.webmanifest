@@ -1,0 +1,17 @@
+{
+  "name": "JP INVESTI",
+  "short_name": "JP INVESTI",
+  "description": "Consultoria premium digital com site e app web.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#04101c",
+  "theme_color": "#081423",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

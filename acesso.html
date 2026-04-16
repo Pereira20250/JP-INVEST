@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Acesso ao plano contratado na JP INVESTI." />
+    <title>JP INVESTI | Acesso ao Plano</title>
+    <link rel="icon" href="/logo.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="/styles.css?v=7" />
+  </head>
+  <body data-page="access">
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+    <div class="background-grid"></div>
+
+    <div class="site-shell">
+      <header class="page-header">
+        <nav class="topbar">
+          <a class="brand" href="/index.html" aria-label="JP INVESTI">
+            <img src="/logo.svg" alt="JP INVESTI" class="brand-logo" />
+            <div class="brand-copy">
+              <strong>JP INVESTI</strong>
+              <span>Consultoria premium digital</span>
+            </div>
+          </a>
+
+          <div class="topbar-actions">
+            <a class="nav-link" href="/index.html">Inicio</a>
+            <a class="nav-link" href="/planos.html">Planos</a>
+            <a class="nav-link" href="/calculadora.html">Calculadora</a>
+            <a class="nav-link" href="/contato.html">Contato</a>
+          </div>
+        </nav>
+      </header>
+
+      <main>
+        <section class="section subhero">
+          <div class="section-heading narrow">
+            <span class="eyebrow">Ativacao do plano</span>
+            <h1 class="page-title">Seu pedido foi criado.</h1>
+            <p class="page-copy">
+              Agora finalize o pagamento, envie o comprovante e siga os proximos passos do seu plano.
+            </p>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="checkout-grid">
+            <div class="panel checkout-card checkout-plan-panel">
+              <div class="checkout-panel-head">
+                <span class="mini-label">Pedido</span>
+                <strong id="access-plan-name">Carregando pedido...</strong>
+                <span id="access-plan-price" class="checkout-price">R$ 0,00</span>
+              </div>
+              <div class="checkout-step-list">
+                <div class="checkout-step">Pedido: <strong id="access-order-id">--</strong></div>
+                <div class="checkout-step">Status: <strong id="access-order-status">--</strong></div>
+                <div class="checkout-step">Cliente: <strong id="access-customer-name">--</strong></div>
+              </div>
+            </div>
+
+            <div class="panel checkout-card">
+              <div class="checkout-panel-head">
+                <span class="mini-label">Proximos passos</span>
+                <strong>O que acontece depois do pagamento</strong>
+              </div>
+              <ul id="access-onboarding" class="plan-benefits"></ul>
+              <a id="access-whatsapp" class="button button-primary button-full" href="https://wa.me/5511976172617" target="_blank" rel="noreferrer">
+                Enviar comprovante no WhatsApp
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="/app-v2.js?v=2" defer></script>
+  </body>
+</html>
